@@ -1,0 +1,153 @@
+/*
+blauw  #33367A
+geel #DFD83D
+groen #57963E
+roze #9E5795
+rood #C6304D
+teal #55AEC8
+oranje #DE742B
+donkerpaars: #3D3B8F
+ */
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image: url("images/Nacht2.JPG");
+  background-attachment: fixed;
+  /* min-height: 95vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* background: #040406; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.navigation-text {
+  margin: 0 -30px;
+}
+
+.main-title {
+  padding: 3vh;
+  font-size: 4.3em;
+  color: #15ACE1;
+  line-height: 1.5;
+}
+
+.title-span {
+  font-size: 1.1em;
+  color: #61B22F;
+}
+
+.span-container{
+  display: none;
+}
+
+.main-section {
+  /* background-image: url("images/Nacht2.JPG");
+  background-attachment: fixed;
+  min-height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color: white;
+  position: relative;
+  z-index: 5;
+  text-align: center;
+    min-height: 90vh;
+}
+
+.sub-section {
+  padding: 40px;
+}
+
+.sub-section p{
+  line-height: 2;
+}
+
+.subsection-heading{
+  font-size: 3rem;
+}
+
+/*
+blauw  #33367A
+geel #DFD83D
+groen #57963E
+paars #9E5795
+rood #C6304D
+teal #55AEC8
+oranje #DE742B
+donkerpaars: #3D3B8F
+ */
+
+.section-light{
+  /* background-color: #5C426A; */
+    background-image: url("images/light.png");
+      background-size: cover;
+      text-align: right;
+}
+
+
+/* ----Media queries ---- */
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .main-section{
+    text-align: left;
+    min-height: 100%;
+  }
+
+  .main-title {
+    display: none;
+  }
+
+  .span-container {
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .mobile-title{
+    font-size: 4.8em;
+    color: #15ACE1;
+  }
+
+  .mobile-title2{
+    font-size: 4.7em;
+    color: #15ACE1;
+  }
+
+  .mobile-span {
+    font-size: 5.1em;
+
+    color: #61B22F;
+    letter-spacing: 10px;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .main-title {
+    font-size: 3.5em;
+  }
+}

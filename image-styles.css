@@ -1,0 +1,298 @@
+svg{
+  width: 100%;
+}
+
+.img-zzzumi {
+  max-width: 25em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor:pointer;
+  z-index: 5;
+}
+
+.circle-container{
+  height: 24.5em;
+  width: 24.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.pulse1, .pulse2{
+  display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* .pulse2{
+  height: 40em;
+  width: 40em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+} */
+
+
+
+.navigation-link{
+  position: absolute;
+  cursor:pointer;
+  text-align: center;
+}
+
+.hide-text{
+  display: none;
+}
+
+
+.wie{
+  max-width: 9em;
+  top: 40vh;
+  left: 25vh;
+}
+
+.geel{
+  max-height: 9em;
+}
+
+
+
+.behang{
+  max-width: 7em;
+  top: 10vh;
+  left: 10vh;
+}
+
+.blauw{
+  max-height: 7em;
+}
+
+
+
+
+.schrijver{
+  max-width: 5em;
+  top: 70vh;
+  left: 5vh;
+}
+
+.groen{
+  max-height: 5em;
+}
+
+
+
+
+.spel{
+  max-width: 4.5em;
+  top: 80vh;
+  left: 40vh;
+}
+
+.oranje{
+  max-height: 4.5em;
+
+}
+
+
+.sterren{
+  max-width: 3em;
+  top: 10vh;
+  right: 20vh;
+}
+
+.paars{
+  max-height: 3em;
+}
+
+
+.kleurplaat{
+  max-width: 6em;
+  top: 40vh;
+  right: 30vh;
+}
+
+.rood{
+  max-height: 6em;
+
+}
+
+
+.luisterboek{
+  max-width: 8em;
+  top: 63vh;
+  right: 5vh;
+}
+
+.teal{
+  max-height: 8em;
+
+}
+
+
+.plaatje-zzzumi{
+  height: 300px;
+}
+
+
+/* ----Media queries ---- */
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+  .img-zzzumi {
+    max-width: 11em;
+    position: absolute;
+    top: 40%;
+    z-index: 5;
+  }
+
+  .circle-container{
+    top: 40%;
+    width: 10em;
+    height: 10em;
+  }
+
+
+  .navigation-link{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+  }
+
+  .img-bol{
+    /* width: 3em;
+    height: 3em; */
+    opacity: 0.6;
+    z-index: 3;
+  }
+
+  .wie{
+    max-width: 2.8em;
+    top: 14vh;
+    left: 5vh;
+  }
+
+  .geel{
+    max-height: 2.8em;
+  }
+
+
+
+  .behang{
+    max-width: 1em;
+    top: 10vh;
+    left: 10vh;
+  }
+
+  .blauw{
+    max-height: 1em;
+  }
+
+
+
+
+  .schrijver{
+    max-width: 3em;
+    top: 55vh;
+    left: 15vh;
+  }
+
+  .groen{
+    max-height: 3em;
+  }
+
+
+  .spel{
+    max-width: 2.5em;
+    top: 10%;
+    left: 70%;
+  }
+
+  .oranje{
+    max-height: 2.5em;
+
+  }
+
+
+  .sterren{
+    max-width: 1.6em;
+    top: 52vh;
+    left: 8%;
+  }
+
+  .paars{
+    max-height: 1.6em;
+  }
+
+
+  .kleurplaat{
+    max-width: 2.5em;
+    top: 60vh;
+    left: 80%;
+  }
+
+  .rood{
+    max-height: 2.5em;
+  }
+
+
+  .luisterboek{
+    max-width: 3.2em;
+    top: 1vh;
+    left: 51%;
+  }
+
+  .teal{
+    max-height: 3.2em;
+
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .sterren{
+    max-width: 4em;
+    top: 20vh;
+    right: 4%;
+  }
+
+  .paars{
+    max-height: 4em;
+  }
+
+  .wie{
+
+    top: 40vh;
+    left: 9vh;
+  }
+
+  .kleurplaat{
+    top: 40vh;
+    right: 13vh;
+  }
+
+}
