@@ -158,18 +158,18 @@ svg{
 
 
 /* ----Media queries ---- */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 
   /* For mobile phones: */
   .img-zzzumi {
     max-width: 11em;
     position: absolute;
-    top: 20%;
+    top: 50%;
     z-index: 5;
   }
 
   .circle-container{
-    top: 20%;
+    top: 50%;
     width: 10em;
     height: 10em;
   }
@@ -183,16 +183,14 @@ svg{
   }
 
   .img-bol{
-    /* width: 3em;
-    height: 3em; */
     opacity: 0.6;
     z-index: 3;
   }
 
   .wie{
     max-width: 2.8em;
-    top: 14vh;
-    left: 5vh;
+    top: 10%;
+    left: 12%;
   }
 
   .geel{
@@ -203,8 +201,8 @@ svg{
 
   .behang{
     max-width: 1em;
-    top: 10vh;
-    left: 10vh;
+    top: 95%;
+    left: 50%;
   }
 
   .blauw{
@@ -213,11 +211,10 @@ svg{
 
 
 
-
   .schrijver{
     max-width: 3em;
-    top: 22vh;
-    left: 15vh;
+    top: 12%;
+    left: 80%;
   }
 
   .groen{
@@ -227,8 +224,8 @@ svg{
 
   .spel{
     max-width: 2.5em;
-    top: 10%;
-    left: 70%;
+    top: 90%;
+    left: 82%;
   }
 
   .oranje{
@@ -250,8 +247,8 @@ svg{
 
   .kleurplaat{
     max-width: 2.5em;
-    top: 30vh;
-    left: 80%;
+    top: 60%;
+    left: 2%;
   }
 
   .rood{
@@ -261,8 +258,8 @@ svg{
 
   .luisterboek{
     max-width: 3.2em;
-    top: 1vh;
-    left: 51%;
+    top: 1%;
+    left: 50%;
   }
 
   .teal{
@@ -271,6 +268,115 @@ svg{
   }
 
 }
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .img-zzzumi {
+    max-width: 15em;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+  }
+
+  .circle-container{
+    top: 50%;
+    width: 14em;
+    height: 14em;
+  }
+
+
+  .navigation-link{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+  }
+
+  .img-bol{
+    opacity: 0.6;
+    z-index: 3;
+  }
+
+  .wie{
+    max-width: 4.5em;
+    top: 10%;
+    left: 12%;
+  }
+
+  .geel{
+    max-height: 4.5em;
+  }
+
+
+  .behang{
+    max-width: 3.2em;
+    top: 95%;
+    left: 50%;
+  }
+
+  .blauw{
+    max-height: 3.2em;
+  }
+
+
+
+  .schrijver{
+    max-width: 4em;
+    top: 12%;
+    left: 80%;
+  }
+
+  .groen{
+    max-height: 4em;
+  }
+
+
+  .spel{
+    max-width: 3.1em;
+    top: 90%;
+    left: 82%;
+  }
+
+  .oranje{
+    max-height: 3.1em;
+
+  }
+
+
+  .sterren{
+    max-width: 4.3em;
+    top: 52vh;
+    left: 8%;
+  }
+
+  .paars{
+    max-height: 4.3em;
+  }
+
+
+  .kleurplaat{
+    max-width: 2.8em;
+    top: 60%;
+    left: 2%;
+  }
+
+  .rood{
+    max-height: 2.8em;
+  }
+
+
+  .luisterboek{
+    max-width: 3.2em;
+    top: 1%;
+    left: 50%;
+  }
+
+  .teal{
+    max-height: 3.2em;
+
+  }
+}
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {

@@ -18,6 +18,7 @@ const values = [{cx: 100, cy: 100}, {cx: 400, cy: 100}, {cx: 400, cy: 400}, {cx:
 
 const planets = [red, blue, green, orange, purple, teal, yellow];
 
+
 const mq = window.matchMedia( "(min-width: 768px)" );
 if (mq.matches) {
 // const tl = new TimeLineMax();
@@ -153,12 +154,10 @@ else{
                   {transformOrigin:"center center", autoAlpha:0, scale: 1.5, ease:Quad.easeInOut}, 0.5
                 );
 
-      const tlm1 = new TimelineMax({repeat:-1, repeatDelay:0.2});
 
-      tlm1
-        .to(yellow, 0.4, {rotation: 88,  duration: 0.5})
-        .to(yellow, 0.4, {rotation: -88,  duration: 0.5});
 
+  var tlBubbles = new TimelineMax();
+      tlBubbles.staggerFromTo(planets, 2, {y:0},{y:-5, ease: Sine.easeInOut, repeat: -1, yoyo: true}, .4);
 
 
 }
