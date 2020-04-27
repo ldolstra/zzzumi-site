@@ -171,8 +171,8 @@ transform: scaleX(-1);
 
 
 .logo{
-  max-height: 100px;
-  border: 1px solid grey;
+  max-height: 150px;
+  /* border: 1px solid grey; */
   margin: 40px;
 }
 
