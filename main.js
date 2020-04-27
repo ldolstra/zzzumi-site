@@ -2,6 +2,14 @@
 console.clear();
 
 
+const buy = document.querySelector("#buy-book");
+const formContainer = document.querySelector("#payment");
+buy.addEventListener('click', _ => {
+  formContainer.classList.toggle("hidden");
+});
+
+
+
 const main = document.querySelector('.main-section');
 const red = document.querySelector('.rood');
 const blue = document.querySelector('.blauw');

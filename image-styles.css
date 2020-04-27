@@ -156,9 +156,42 @@ svg{
   height: 300px;
 }
 
+.img-zzzumi-los{
+  max-width: 80%;
+  /* -webkit-transform: scaleX(-1); */
+transform: scaleX(-1);
+}
+
+.plaatje-boek {
+  margin: -80px 100px;
+
+  max-height: 600px;
+  max-width: 100%;
+}
+
+
+.logo{
+  max-height: 100px;
+  border: 1px solid grey;
+  margin: 40px;
+}
+
+.shop-logos{
+  max-height: 60px;
+  padding: 5px 5px 0 0;
+}
+
+.shop-item{
+    max-height: 60px;
+}
+
 
 /* ----Media queries ---- */
 @media only screen and (max-width: 600px) {
+
+  .plaatje-boek {
+    margin: 15px;
+  }
 
   /* For mobile phones: */
   .img-zzzumi {
@@ -270,7 +303,14 @@ svg{
 }
 
 
+
+
+
 @media only screen and (min-width: 600px) and (max-width: 768px) {
+  .plaatje-boek {
+    margin: 15px;
+  }
+
   .img-zzzumi {
     max-width: 15em;
     position: absolute;
@@ -375,11 +415,19 @@ svg{
     max-height: 3.2em;
 
   }
+
+  .plaatje-boek {
+    margin: 15px;
+  }
 }
 
 
 
 @media only screen and (min-width: 768px) and (max-width: 1140px) {
+  .plaatje-boek {
+    margin: 15px;
+  }
+
   .sterren{
     max-width: 4em;
     top: 20vh;
