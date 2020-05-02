@@ -174,19 +174,20 @@ p {
 }
 
 
+
 .fa-volume-up{
   padding: 70px;
 }
 
 
 .kleurplaat-tegel img{
-  max-width: 60%;
+  max-width: 80%;
   cursor: pointer;
-  padding: 40px;
+  padding: 10%;
 }
 
 .kleurplaat-tegel img:hover{
-  max-width: 70%;
+  max-width: 85%;
 }
 
 
