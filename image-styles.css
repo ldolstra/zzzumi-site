@@ -163,7 +163,7 @@ transform: scaleX(-1);
 }
 
 .plaatje-boek {
-  margin: -80px 100px;
+  margin: -80px 100px -15px;
 
   max-height: 600px;
   max-width: 100%;
@@ -183,6 +183,10 @@ transform: scaleX(-1);
 
 .shop-item{
     max-height: 60px;
+}
+
+.poster{
+  max-width: 90%;
 }
 
 
