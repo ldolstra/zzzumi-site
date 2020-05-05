@@ -57,8 +57,10 @@ p {
 
 .explain-text{
   position: absolute;
-  width: 100%;
+  min-width: 95%;
   bottom: 5%;
+  margin: 0;
+  padding: 0;
 }
 
 .main-title {
@@ -83,7 +85,20 @@ p {
   position: relative;
   z-index: 5;
   text-align: center;
-    min-height: 95vh;
+    min-height: 98vh;
+}
+
+.navbar{
+  background:#050507;
+  opacity: 0.9;
+}
+
+.nav-link{
+  color: white;
+}
+
+.navbar-toggler{
+    color: white;
 }
 
 .sub-section {

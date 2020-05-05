@@ -2,6 +2,11 @@ svg{
   width: 100%;
 }
 
+.brand-img{
+  max-width: 40px;
+    transform: scaleX(-1);
+}
+
 .img-zzzumi {
   max-width: 25em;
   position: absolute;
