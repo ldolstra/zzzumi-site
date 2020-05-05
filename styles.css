@@ -92,7 +92,7 @@ p {
   display: none;
 }
 
-.navbar{
+.nav-desktop{
   background:#050507;
   opacity: 0.9;
 }
@@ -321,8 +321,26 @@ footer a{
 
 
 @media only screen and  (max-width: 991px) {
+.brand-img{
+  min-width: 70px;
+}
+
 .nav-mobile{
   display: flex;
+  position: fixed;
+  min-width: 100%;
+  /* min-width: 100%; */
+}
+
+.navbar-toggler:focus{
+  outline: none;
+}
+
+
+.navbar-collapse{
+  background:#050507;
+  opacity: 0.9;
+  min-width: 100%;
 }
 
 .nav-desktop{
