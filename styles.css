@@ -88,6 +88,10 @@ p {
     min-height: 98vh;
 }
 
+.nav-mobile{
+  display: none;
+}
+
 .navbar{
   background:#050507;
   opacity: 0.9;
@@ -310,6 +314,20 @@ footer a{
     padding: 15px;
     margin: 0 auto;
   }
+
+
+
+}
+
+
+@media only screen and  (max-width: 991px) {
+.nav-mobile{
+  display: flex;
+}
+
+.nav-desktop{
+  display: none;
+}
 
 }
 
