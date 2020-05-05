@@ -19,7 +19,6 @@ body {
   height: 100%;
   background-image: url("images/Nacht2.JPG");
   background-attachment: fixed;
-  /* min-height: 95vh; */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +28,6 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  /* background: #040406; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -245,6 +243,15 @@ footer a{
     letter-spacing: 10px;
   }
 
+  .sub-section {
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .text-right{
+    text-align: left !important;
+  }
+
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
@@ -282,6 +289,11 @@ footer a{
 
     color: #61B22F;
     letter-spacing: 10px;
+  }
+
+  .sub-section {
+    padding: 15px;
+    margin: 0 auto;
   }
 
 }

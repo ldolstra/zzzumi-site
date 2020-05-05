@@ -195,6 +195,7 @@ transform: scaleX(-1);
 
   .plaatje-boek {
     margin: 15px;
+    max-width: 90%;
   }
 
   /* For mobile phones: */
