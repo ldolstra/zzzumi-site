@@ -168,10 +168,10 @@ transform: scaleX(-1);
 }
 
 .plaatje-boek {
-  margin: -80px 100px -15px;
+  margin: -80px auto -15px;
 
-  max-height: 600px;
-  max-width: 100%;
+
+  max-width: 90%;
 }
 
 
@@ -191,7 +191,16 @@ transform: scaleX(-1);
 }
 
 .poster{
-  max-width: 90%;
+  max-width: 80%;
+}
+
+.img-janet{
+  max-width: 60%;
+   transform: rotate(-5deg);
+}
+
+.img-janet:hover{
+  transform: rotate(5deg);
 }
 
 

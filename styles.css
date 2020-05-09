@@ -51,6 +51,10 @@ p {
   line-height: 1.5;
 }
 
+.subsection-text{
+  margin: 10% auto;
+}
+
 .navigation-text {
   margin: 0 -30px;
 }
@@ -211,6 +215,20 @@ p {
 .contact-section p, .contact-section form{
   padding: 40px 60px;
 }
+
+.section-quiz{
+  background-image: url("images/Nacht.JPG");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 60%;
+  min-height: 45vh;
+  margin: 20px auto;
+}
+
+
+
 
 
 footer{
