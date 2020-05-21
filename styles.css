@@ -4,7 +4,7 @@ geel #DFD83D
 groen #57963E
 roze #9E5795
 rood #C6304D
-teal #55AEC8
+teal #
 oranje #DE742B
 donkerpaars: #3D3B8F
  */
@@ -30,7 +30,7 @@ body {
   user-select: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-family: 'Gloria Hallelujah', cursive;
   color: white;
   font-size: 3rem;
@@ -189,9 +189,10 @@ p {
 }
 
 
-.payment{
+.table{
 
-  margin-top: 130px;
+  max-width: 80%;
+  margin: 130px auto;
 }
 
 .hidden{
@@ -221,6 +222,7 @@ p {
 }
 
 .section-quiz{
+  border: 15px dotted #C6304D;
   background-image: url("images/Nacht.JPG");
   background-attachment: fixed;
   background-position: bottom;
@@ -231,6 +233,36 @@ p {
   margin: 20px auto;
 }
 
+
+.section-quiz p{
+  color: white;
+}
+
+.btn-start{
+
+  background: #DFD83D;
+  margin: 8% 2%;
+  min-width: 40%;
+  height: 75px;
+}
+
+.btn-start:hover{
+    background: #DE742B;
+}
+
+
+.btn-quiz{
+  background-color: #15ACE1;
+  margin: 8% 2%;
+  width: 80%;
+  height: 75px;
+}
+
+
+.btn-quiz:hover{
+  background: #55AEC8;
+  color: white;
+}
 
 
 
@@ -367,6 +399,13 @@ footer a{
 
 .nav-desktop{
   display: none;
+}
+
+.section-quiz{
+
+  max-width: 80%;
+  min-height: 45vh;
+
 }
 
 }
